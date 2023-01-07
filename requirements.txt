@@ -8,5 +8,7 @@ scikit-learn
 matplotlib
 seaborn
 jupyter
-jupyter-book
-bokeh
+# jupyter-book
+# bokeh
+jupyter_bokeh
+panel
