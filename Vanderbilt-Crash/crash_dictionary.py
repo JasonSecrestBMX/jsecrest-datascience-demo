@@ -20,12 +20,12 @@ class CrashDict:
             raise ValueError(f"'var_names' is an unexpected type: {type(var_names)}")
 
     def get_details(self, var_names:str|list[str]) -> pd.DataFrame:
-        """return all columns of the data dictionary for a specified variable name"""
+        """return all columns of the data dictionary for a specified variable name or list of names"""
         var_names = self._prep_var_name(var_names)
         return self.df.loc[var_names]
 
     def get_labels(self, var_names):
-        """return the 'Labels' column of the data dictionary for a specified variable name"""
+        """return the 'Labels' column of the data dictionary for a specified variable name or list of names"""
         var_names = self._prep_var_name(var_names)
         return self.df.loc[var_names,['Labels']]
 
