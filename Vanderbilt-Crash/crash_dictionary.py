@@ -4,6 +4,7 @@ class CrashDict:
     def __init__(self, dict_csv):
         self.df = pd.read_csv(dict_csv)
         self.df.set_index('Name', inplace=True)
+        self.index = self.df.index
         # print(self.df)
     
     def _prep_var_name(self, var_names) -> list:
@@ -44,5 +45,7 @@ if __name__ == '__main__':
     print("--------")
     print(crash_dict.get_labels(['cause']))
     print(crash_dict.get_labels('cause'))
+    print("--------")
+    print(crash_dict.index)
 
 
