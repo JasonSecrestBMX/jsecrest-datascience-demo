@@ -11,3 +11,4 @@ This data represents patients in a clinical trail who received treatment after p
 - 20207 observations and 44 variables
 - **Full data source description** can be accessed at http://hbiostat.org/data/repo/crash2.html or in this project's data folder: data/crash2.hml
 - **Data dictionary** available at http://hbiostat.org/data/repo/Ccrash2.html or in this project's data folder: data/Ccrash2.hml
+  - I have converted the table of the html data dictionary to a csv: data/crash_dictionary.csv

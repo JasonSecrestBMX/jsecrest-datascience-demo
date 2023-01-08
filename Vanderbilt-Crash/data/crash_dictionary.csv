@@ -1,0 +1,45 @@
+﻿Name,Labels,Units,Levels,Class,Storage,NAs
+entryid,Unique Numbers for Entry Forms,,,integer,integer,0
+source,Method of Transmission of Entry Form to CC,,5,,integer,0
+trandomised,Date of Randomization,,,Date,double,0
+outcomeid,Unique Number From Outcome Database,,,integer,integer,80
+sex,,,2,,integer,1
+age,,,,,integer,4
+injurytime,Hours Since Injury,,,numeric,double,11
+injurytype,,,3,,integer,0
+sbp,Systolic Blood Pressure,mmHg,,integer,integer,320
+rr,Respiratory Rate,/min,,integer,integer,191
+cc,Central Capillary Refille Time,s,,integer,integer,611
+hr,Heart Rate,/min,,integer,integer,137
+gcseye,Glasgow Coma Score Eye Opening,,,integer,integer,732
+gcsmotor,Glasgow Coma Score Motor Response,,,integer,integer,732
+gcsverbal,Glasgow Coma Score Verbal Response,,,integer,integer,735
+gcs,Glasgow Coma Score Total,,,integer,integer,23
+ddeath,Date of Death,,,Date,double,17121
+cause,Main Cause of Death,,7,,integer,17118
+scauseother,Description of Other Cause of Death,,227,,integer,0
+status,Status of Patient at Outcome if Alive,,3,,integer,3169
+ddischarge,"Date of discharge, transfer to other hospital or day 28 from randomization",,,Date,double,3185
+condition,Condition of Patient at Outcome if Alive,,5,,integer,3251
+ndaysicu,Number of Days Spent in ICU,,,numeric,double,182
+bheadinj,Significant Head Injury,,,integer,integer,80
+bneuro,Neurosurgery Done,,,integer,integer,80
+bchest,Chest Surgery Done,,,integer,integer,80
+babdomen,Abdominal Surgery Done,,,integer,integer,80
+bpelvis,Pelvis Surgery Done,,,integer,integer,80
+bpe,Pulmonary Embolism,,,integer,integer,80
+bdvt,Deep Vein Thrombosis,,,integer,integer,80
+bstroke,Stroke,,,integer,integer,80
+bbleed,Surgery for Bleeding,,,integer,integer,80
+bmi,Myocardial Infarction,,,integer,integer,80
+bgi,Gastrointestinal Bleeding,,,integer,integer,80
+bloading,Complete Loading Dose of Trial Drug Given,,,integer,integer,80
+bmaint,Complete Maintenance Dose of Trial Drug Given,,,integer,integer,80
+btransf,Blood Products Transfusion,,,integer,integer,80
+ncell,Number of Units of Red Call Products Transfused,,,numeric,double,9963
+nplasma,Number of Units of Fresh Frozen Plasma Transfused,,,integer,integer,9964
+nplatelets,Number of Units of Platelets Transfused,,,integer,integer,9964
+ncryo,Number of Units of Cryoprecipitate Transfused,,,integer,integer,9964
+bvii,Recombinant Factor VIIa Given,,,integer,integer,374
+boxid,Treatment Box Number,,,integer,integer,0
+packnum,Treatment Pack Number,,,integer,integer,0
